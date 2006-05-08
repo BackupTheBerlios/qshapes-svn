@@ -1,0 +1,566 @@
+<!DOCTYPE QDOCINDEX>
+<INDEX url="http://www.trolltech.com/products/canvas" title="Canvas Documentation">
+<namespace access="public" name="">
+ <class access="public" name="QtCanvasItem" bases="">
+  <function access="public" name="QtCanvasItem" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasItem" virtual="impure" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="x" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="y" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="z" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="moveBy" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="dx" />
+   <parameter left="double" right="" name="dy" />
+  </function>
+  <function access="public" name="move" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="x" />
+   <parameter left="double" right="" name="y" />
+  </function>
+  <function access="public" name="setX" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="x" />
+  </function>
+  <function access="public" name="setY" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="y" />
+  </function>
+  <function access="public" name="setZ" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="z" />
+  </function>
+  <function access="public" name="animated" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setAnimated" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="y" />
+  </function>
+  <function access="public" name="setVelocity" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="vx" />
+   <parameter left="double" right="" name="vy" />
+  </function>
+  <function access="public" name="setXVelocity" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="vx" />
+  </function>
+  <function access="public" name="setYVelocity" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="vy" />
+  </function>
+  <function access="public" name="xVelocity" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="yVelocity" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="advance" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="phase" />
+  </function>
+  <function access="public" name="collidesWith" virtual="pure" meta="plain" const="true" static="false" overload="false">
+   <parameter left="const QtCanvasItem *" right="" name="other" />
+  </function>
+  <function access="public" name="collisions" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="bool" right="" name="exact" />
+  </function>
+  <function access="public" name="setCanvas" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="c" />
+  </function>
+  <function access="public" name="draw" virtual="pure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="painter" />
+  </function>
+  <function access="public" name="show" virtual="non" meta="plain" const="false" static="false" overload="false" />
+  <function access="public" name="hide" virtual="non" meta="plain" const="false" static="false" overload="false" />
+  <function access="public" name="setVisible" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="yes" />
+  </function>
+  <function access="public" name="isVisible" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setSelected" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="yes" />
+  </function>
+  <function access="public" name="isSelected" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setEnabled" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="yes" />
+  </function>
+  <function access="public" name="isEnabled" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setActive" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="yes" />
+  </function>
+  <function access="public" name="isActive" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="visible" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="selected" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="enabled" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="active" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <enum access="public" name="RttiValues" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="public" name="boundingRect" virtual="pure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="boundingRectAdvanced" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="canvas" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="protected" name="update" virtual="non" meta="plain" const="false" static="false" overload="false" />
+ </class>
+ <class access="public" name="QtCanvas" bases="QObject">
+  <function access="public" name="QtCanvas" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QObject *" right="" name="parent" />
+  </function>
+  <function access="public" name="QtCanvas" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="int" right="" name="w" />
+   <parameter left="int" right="" name="h" />
+  </function>
+  <function access="public" name="QtCanvas" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="QPixmap" right="" name="p" />
+   <parameter left="int" right="" name="h" />
+   <parameter left="int" right="" name="v" />
+   <parameter left="int" right="" name="tilewidth" />
+   <parameter left="int" right="" name="tileheight" />
+  </function>
+  <function access="public" name="~QtCanvas" virtual="impure" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setTiles" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPixmap" right="" name="p" />
+   <parameter left="int" right="" name="h" />
+   <parameter left="int" right="" name="v" />
+   <parameter left="int" right="" name="tilewidth" />
+   <parameter left="int" right="" name="tileheight" />
+  </function>
+  <function access="public" name="setBackgroundPixmap" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QPixmap &amp;" right="" name="p" />
+  </function>
+  <function access="public" name="backgroundPixmap" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setBackgroundColor" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QColor &amp;" right="" name="c" />
+  </function>
+  <function access="public" name="backgroundColor" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setTile" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+   <parameter left="int" right="" name="tilenum" />
+  </function>
+  <function access="public" name="tile" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+  </function>
+  <function access="public" name="tilesHorizontally" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="tilesVertically" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="tileWidth" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="tileHeight" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="resize" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="w" />
+   <parameter left="int" right="" name="h" />
+  </function>
+  <function access="public" name="width" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="height" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="size" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rect" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="onCanvas" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+  </function>
+  <function access="public" name="onCanvas" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="const QPoint &amp;" right="" name="p" />
+  </function>
+  <function access="public" name="validChunk" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+  </function>
+  <function access="public" name="validChunk" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="const QPoint &amp;" right="" name="p" />
+  </function>
+  <function access="public" name="chunkSize" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="retune" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="chunksze" />
+   <parameter left="int" right="" name="mxclusters" />
+  </function>
+  <function access="public" name="setAllChanged" virtual="impure" meta="plain" const="false" static="false" overload="false" />
+  <function access="public" name="setChanged" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QRect &amp;" right="" name="area" />
+  </function>
+  <function access="public" name="setUnchanged" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QRect &amp;" right="" name="area" />
+  </function>
+  <function access="public" name="allItems" virtual="non" meta="plain" const="false" static="false" overload="false" />
+  <function access="public" name="collisions" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="const QPoint &amp;" right="" name="p" />
+  </function>
+  <function access="public" name="collisions" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="const QRect &amp;" right="" name="r" />
+  </function>
+  <function access="public" name="collisions" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="const QPolygon &amp;" right="" name="chunklist" />
+   <parameter left="const QtCanvasItem *" right="" name="item" />
+   <parameter left="bool" right="" name="exact" />
+  </function>
+  <function access="public" name="drawArea" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QRect &amp;" right="" name="clip" />
+   <parameter left="QPainter *" right="" name="painter" />
+   <parameter left="bool" right="" name="dbuf" />
+  </function>
+  <function access="public" name="setAdvancePeriod" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="ms" />
+  </function>
+  <function access="public" name="setUpdatePeriod" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="ms" />
+  </function>
+  <function access="public" name="resized" virtual="non" meta="signal" const="false" static="false" overload="false" />
+  <function access="public" name="advance" virtual="impure" meta="slot" const="false" static="false" overload="false" />
+  <function access="public" name="update" virtual="impure" meta="slot" const="false" static="false" overload="false" />
+  <function access="protected" name="drawBackground" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="painter" />
+   <parameter left="const QRect &amp;" right="" name="clip" />
+  </function>
+  <function access="protected" name="drawForeground" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="painter" />
+   <parameter left="const QRect &amp;" right="" name="clip" />
+  </function>
+ </class>
+ <class access="public" name="QtCanvasView" bases="QScrollArea">
+  <property access="public" name="highQualityRendering" />
+  <function access="public" name="QtCanvasView" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QWidget *" right="" name="parent" />
+  </function>
+  <function access="public" name="QtCanvasView" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+   <parameter left="QWidget *" right="" name="parent" />
+  </function>
+  <function access="public" name="~QtCanvasView" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="canvas" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setCanvas" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="worldMatrix" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="inverseWorldMatrix" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setWorldMatrix" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QMatrix &amp;" right="" name="wm" />
+  </function>
+  <function access="public" name="sizeHint" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="highQualityRendering" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setHighQualityRendering" virtual="non" meta="slot" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="enable" />
+  </function>
+  <function access="protected" name="drawContents" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter *" right="" name="p" />
+   <parameter left="int" right="" name="cx" />
+   <parameter left="int" right="" name="cy" />
+   <parameter left="int" right="" name="cw" />
+   <parameter left="int" right="" name="ch" />
+  </function>
+  <function access="protected" name="contentsMousePressEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QMouseEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsMouseReleaseEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QMouseEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsMouseDoubleClickEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QMouseEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsMouseMoveEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QMouseEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsDragEnterEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QDragEnterEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsDragMoveEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QDragMoveEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsDragLeaveEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QDragLeaveEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsDropEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QDropEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsWheelEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QWheelEvent *" right="" name="" />
+  </function>
+  <function access="protected" name="contentsContextMenuEvent" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QContextMenuEvent *" right="" name="" />
+  </function>
+ </class>
+ <class access="public" name="QtCanvasPixmap" bases="QPixmap">
+  <function access="public" name="QtCanvasPixmap" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="const QString &amp;" right="" name="datafilename" />
+  </function>
+  <function access="public" name="QtCanvasPixmap" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QImage &amp;" right="" name="image" />
+  </function>
+  <function access="public" name="QtCanvasPixmap" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QPixmap &amp;" right="" name="pm" />
+   <parameter left="const QPoint &amp;" right="" name="offset" />
+  </function>
+  <function access="public" name="~QtCanvasPixmap" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="offsetX" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="offsetY" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setOffset" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+  </function>
+ </class>
+ <class access="public" name="QtCanvasPixmapArray" bases="">
+  <function access="public" name="QtCanvasPixmapArray" virtual="non" meta="constructor" const="false" static="false" overload="false" />
+  <function access="public" name="QtCanvasPixmapArray" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QString &amp;" right="" name="datafilenamepattern" />
+   <parameter left="int" right="" name="fc" />
+  </function>
+  <function access="public" name="QtCanvasPixmapArray" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QList&lt;QPixmap&gt; &amp;" right="" name="list" />
+   <parameter left="const QPolygon &amp;" right="" name="hotspots" />
+  </function>
+  <function access="public" name="~QtCanvasPixmapArray" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="readPixmaps" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QString &amp;" right="" name="filenamepattern" />
+   <parameter left="int" right="" name="fc" />
+  </function>
+  <function access="public" name="readCollisionMasks" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QString &amp;" right="" name="filename" />
+  </function>
+  <function access="public" name="operator!" virtual="non" meta="plain" const="false" static="false" overload="false" />
+  <function access="public" name="isValid" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="image" virtual="non" meta="plain" const="true" static="false" overload="false">
+   <parameter left="int" right="" name="i" />
+  </function>
+  <function access="public" name="setImage" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="i" />
+   <parameter left="QtCanvasPixmap *" right="" name="p" />
+  </function>
+  <function access="public" name="count" virtual="non" meta="plain" const="true" static="false" overload="false" />
+ </class>
+ <class access="public" name="QtCanvasSprite" bases="QtCanvasItem">
+  <function access="public" name="QtCanvasSprite" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvasPixmapArray *" right="" name="a" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="setSequence" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QtCanvasPixmapArray *" right="" name="a" />
+  </function>
+  <function access="public" name="~QtCanvasSprite" virtual="impure" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="move" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="double" right="" name="x" />
+   <parameter left="double" right="" name="y" />
+  </function>
+  <function access="public" name="move" virtual="impure" meta="plain" const="false" static="false" overload="true">
+   <parameter left="double" right="" name="nx" />
+   <parameter left="double" right="" name="ny" />
+   <parameter left="int" right="" name="nf" />
+  </function>
+  <function access="public" name="setFrame" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="f" />
+  </function>
+  <enum access="public" name="FrameAnimationType" />
+  <function access="public" name="setFrameAnimation" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="FrameAnimationType" right="" name="type" />
+   <parameter left="int" right="" name="step" />
+   <parameter left="int" right="" name="state" />
+  </function>
+  <function access="public" name="frame" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="frameCount" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="public" name="boundingRect" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="width" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="height" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="leftEdge" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="topEdge" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rightEdge" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="bottomEdge" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="leftEdge" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="int" right="" name="nx" />
+  </function>
+  <function access="public" name="topEdge" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="int" right="" name="ny" />
+  </function>
+  <function access="public" name="rightEdge" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="int" right="" name="nx" />
+  </function>
+  <function access="public" name="bottomEdge" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="int" right="" name="ny" />
+  </function>
+  <function access="public" name="image" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="imageAdvanced" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="image" virtual="non" meta="plain" const="true" static="false" overload="true">
+   <parameter left="int" right="" name="f" />
+  </function>
+  <function access="public" name="advance" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="phase" />
+  </function>
+  <function access="public" name="draw" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="painter" />
+  </function>
+ </class>
+ <class access="public" name="QtCanvasPolygonalItem" bases="QtCanvasItem">
+  <function access="public" name="QtCanvasPolygonalItem" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasPolygonalItem" virtual="impure" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setPen" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPen" right="" name="p" />
+  </function>
+  <function access="public" name="setBrush" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QBrush" right="" name="b" />
+  </function>
+  <function access="public" name="pen" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="brush" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="areaPoints" virtual="pure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="areaPointsAdvanced" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="boundingRect" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="protected" name="draw" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="p" />
+  </function>
+  <function access="protected" name="drawShape" virtual="pure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="p" />
+  </function>
+  <function access="protected" name="winding" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="protected" name="setWinding" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="bool" right="" name="enable" />
+  </function>
+  <function access="protected" name="invalidate" virtual="non" meta="plain" const="false" static="false" overload="false" />
+  <function access="protected" name="isValid" virtual="non" meta="plain" const="true" static="false" overload="false" />
+ </class>
+ <class access="public" name="QtCanvasRectangle" bases="QtCanvasPolygonalItem">
+  <function access="public" name="QtCanvasRectangle" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasRectangle" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QRect &amp;" right="" name="r" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasRectangle" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="int" right="" name="x" />
+   <parameter left="int" right="" name="y" />
+   <parameter left="int" right="" name="width" />
+   <parameter left="int" right="" name="height" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasRectangle" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="width" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="height" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setSize" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="width" />
+   <parameter left="int" right="" name="height" />
+  </function>
+  <function access="public" name="size" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rect" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="protected" name="drawShape" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="p" />
+  </function>
+  <function access="protected" name="chunks" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+ </class>
+ <class access="public" name="QtCanvasPolygon" bases="QtCanvasPolygonalItem">
+  <function access="public" name="QtCanvasPolygon" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasPolygon" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setPoints" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPolygon" right="" name="pa" />
+  </function>
+  <function access="public" name="points" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="areaPoints" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="protected" name="drawShape" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="p" />
+  </function>
+  <variable access="protected" name="poly" />
+ </class>
+ <class access="public" name="QtCanvasSpline" bases="QtCanvasPolygon">
+  <function access="public" name="QtCanvasSpline" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasSpline" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setControlPoints" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPolygon" right="" name="ctrl" />
+   <parameter left="bool" right="" name="close" />
+  </function>
+  <function access="public" name="controlPoints" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="closed" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+ </class>
+ <class access="public" name="QtCanvasLine" bases="QtCanvasPolygonalItem">
+  <function access="public" name="QtCanvasLine" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasLine" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setPoints" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="xa" />
+   <parameter left="int" right="" name="ya" />
+   <parameter left="int" right="" name="xb" />
+   <parameter left="int" right="" name="yb" />
+  </function>
+  <function access="public" name="startPoint" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="endPoint" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+ </class>
+ <class access="public" name="QtCanvasEllipse" bases="QtCanvasPolygonalItem">
+  <target name="anglediagram" />
+  <function access="public" name="QtCanvasEllipse" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasEllipse" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="int" right="" name="width" />
+   <parameter left="int" right="" name="height" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasEllipse" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="int" right="" name="width" />
+   <parameter left="int" right="" name="height" />
+   <parameter left="int" right="" name="startangle" />
+   <parameter left="int" right="" name="angle" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasEllipse" virtual="non" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="width" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="height" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setSize" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="width" />
+   <parameter left="int" right="" name="height" />
+  </function>
+  <function access="public" name="setAngles" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="start" />
+   <parameter left="int" right="" name="length" />
+  </function>
+  <function access="public" name="angleStart" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="angleLength" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="protected" name="drawShape" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="p" />
+  </function>
+ </class>
+ <class access="public" name="QtCanvasText" bases="QtCanvasItem">
+  <function access="public" name="QtCanvasText" virtual="non" meta="constructor" const="false" static="false" overload="false">
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasText" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QString &amp;" right="" name="t" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="QtCanvasText" virtual="non" meta="constructor" const="false" static="false" overload="true">
+   <parameter left="const QString &amp;" right="" name="t" />
+   <parameter left="QFont" right="" name="f" />
+   <parameter left="QtCanvas *" right="" name="canvas" />
+  </function>
+  <function access="public" name="~QtCanvasText" virtual="impure" meta="destructor" const="false" static="false" overload="false" />
+  <function access="public" name="setText" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QString &amp;" right="" name="t" />
+  </function>
+  <function access="public" name="setFont" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QFont &amp;" right="" name="f" />
+  </function>
+  <function access="public" name="setColor" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="const QColor &amp;" right="" name="c" />
+  </function>
+  <function access="public" name="text" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="font" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="color" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="textFlags" virtual="non" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="setTextFlags" virtual="non" meta="plain" const="false" static="false" overload="false">
+   <parameter left="int" right="" name="f" />
+  </function>
+  <function access="public" name="boundingRect" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <function access="public" name="rtti" virtual="impure" meta="plain" const="true" static="false" overload="false" />
+  <variable access="public" name="RTTI" />
+  <function access="protected" name="draw" virtual="impure" meta="plain" const="false" static="false" overload="false">
+   <parameter left="QPainter &amp;" right="" name="painter" />
+  </function>
+ </class>
+ <page access="public" name="index.html" subtype="page" title="Canvas" fulltitle="Canvas" subtitle="" location="index.qdoc">
+  <contents name="description" title="Description" />
+  <contents name="classes" title="Classes" />
+  <contents name="examples" title="Examples" />
+  <contents name="tested-platforms" title="Tested platforms" />
+  <contents name="screenshots" title="Screenshots" />
+ </page>
+ <page access="public" name="canvas-example.html" subtype="page" title="Canvas Example" fulltitle="Canvas Example" subtitle="" location="canvas.qdoc" />
+</namespace>
+</INDEX>

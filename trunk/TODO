@@ -1,0 +1,4 @@
+1) no sovrapposizione oggetti ?
+2) margine configurabile attorno agli oggetti --> no contatto tra oggetti
+3) sistemare connesione same right, non viene rilevata
+4) implementare DiagramBox::getRelPos ?

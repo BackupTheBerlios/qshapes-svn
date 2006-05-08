@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- qtcanvas-2.0-commercial/src/qtcanvas.cpp -->
+<head>
+    <title>QtCanvasRectangle Class Reference</title>
+    <style>h3.fn,span.fn { margin-left: 1cm; text-indent: -1cm; }
+a:link { color: #004faf; text-decoration: none }
+a:visited { color: #672967; text-decoration: none }
+td.postheader { font-family: sans-serif }
+tr.address { font-family: sans-serif }
+body { background: #ffffff; color: black; }</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" valign="top" width="32"><img src="images/qt-logo.png" align="left" width="32" height="32" border="0" /></td>
+
+<td align="right" valign="top" width="230"><img src="images/trolltech-logo.png" align="right" width="203" height="32" border="0" /></td></tr></table><h1 align="center">QtCanvasRectangle Class Reference</h1>
+<p>The QtCanvasRectangle class provides a rectangle on a <a href="qtcanvas.html">QtCanvas</a>. <a href="#details">More...</a></p>
+<pre>#include &lt;QtCanvasRectangle&gt;</pre><p>Inherits <a href="qtcanvaspolygonalitem.html">QtCanvasPolygonalItem</a>.</p>
+<ul>
+<li><a href="qtcanvasrectangle-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="public-functions"></a>
+<h3>Public Functions</h3>
+<ul>
+<li><div class="fn"/><b><a href="qtcanvasrectangle.html#QtCanvasRectangle">QtCanvasRectangle</a></b> ( QtCanvas * <i>canvas</i> )</li>
+<li><div class="fn"/><b><a href="qtcanvasrectangle.html#QtCanvasRectangle-2">QtCanvasRectangle</a></b> ( const QRect &amp; <i>r</i>, QtCanvas * <i>canvas</i> )</li>
+<li><div class="fn"/><b><a href="qtcanvasrectangle.html#QtCanvasRectangle-3">QtCanvasRectangle</a></b> ( int <i>x</i>, int <i>y</i>, int <i>width</i>, int <i>height</i>, QtCanvas * <i>canvas</i> )</li>
+<li><div class="fn"/><b><a href="qtcanvasrectangle.html#dtor.QtCanvasRectangle">~QtCanvasRectangle</a></b> ()</li>
+<li><div class="fn"/>int <b><a href="qtcanvasrectangle.html#height">height</a></b> () const</li>
+<li><div class="fn"/>QRect <b><a href="qtcanvasrectangle.html#rect">rect</a></b> () const</li>
+<li><div class="fn"/>virtual int <b><a href="qtcanvasrectangle.html#rtti">rtti</a></b> () const</li>
+<li><div class="fn"/>void <b><a href="qtcanvasrectangle.html#setSize">setSize</a></b> ( int <i>width</i>, int <i>height</i> )</li>
+<li><div class="fn"/>QSize <b><a href="qtcanvasrectangle.html#size">size</a></b> () const</li>
+<li><div class="fn"/>int <b><a href="qtcanvasrectangle.html#width">width</a></b> () const</li>
+</ul>
+<ul>
+<li><div class="fn"/>8 public functions inherited from <a href="qtcanvaspolygonalitem.html#public-functions">QtCanvasPolygonalItem</a></li>
+<li><div class="fn"/>34 public functions inherited from <a href="qtcanvasitem.html#public-functions">QtCanvasItem</a></li>
+</ul>
+<a name="protected-functions"></a>
+<h3>Protected Functions</h3>
+<ul>
+<li><div class="fn"/>virtual QPolygon <b><a href="qtcanvasrectangle.html#chunks">chunks</a></b> () const</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasrectangle.html#drawShape">drawShape</a></b> ( QPainter &amp; <i>p</i> )</li>
+</ul>
+<ul>
+<li><div class="fn"/>6 protected functions inherited from <a href="qtcanvaspolygonalitem.html#protected-functions">QtCanvasPolygonalItem</a></li>
+<li><div class="fn"/>1 protected function inherited from <a href="qtcanvasitem.html#protected-functions">QtCanvasItem</a></li>
+</ul>
+<a name="details"></a>
+<hr />
+<h2>Detailed Description</h2>
+<p>The QtCanvasRectangle class provides a rectangle on a <a href="qtcanvas.html">QtCanvas</a>.</p>
+<p>This item paints a single rectangle which may have any <a href="qtcanvaspolygonalitem.html#pen">pen</a>() and <a href="qtcanvaspolygonalitem.html#brush">brush</a>(), but may not be tilted/rotated. For rotated rectangles, use <a href="qtcanvaspolygon.html">QtCanvasPolygon</a>.</p>
+<p>The rectangle's size and initial position can be set in the constructor. The size can be set or changed later using <a href="qtcanvasrectangle.html#setSize">setSize</a>(). Use <a href="qtcanvasrectangle.html#height">height</a>() and <a href="qtcanvasrectangle.html#width">width</a>() to retrieve the rectangle's dimensions.</p>
+<p>The rectangle can be drawn on a painter with <a href="qtcanvasrectangle.html#drawShape">drawShape</a>().</p>
+<p>Like any other canvas item rectangles can be moved with <a href="qtcanvasitem.html#move">QtCanvasItem::move</a>() and <a href="qtcanvasitem.html#moveBy">QtCanvasItem::moveBy</a>(), or by setting coordinates with <a href="qtcanvasitem.html#setX">QtCanvasItem::setX</a>(), <a href="qtcanvasitem.html#setY">QtCanvasItem::setY</a>() and <a href="qtcanvasitem.html#setZ">QtCanvasItem::setZ</a>().</p>
+<hr />
+<h2>Member Function Documentation</h2>
+<h3 class="fn"><a name="QtCanvasRectangle"></a>QtCanvasRectangle::QtCanvasRectangle ( <a href="qtcanvas.html">QtCanvas</a> * <i>canvas</i> )</h3>
+<p>Constructs a rectangle at position (0,0) with both width and height set to 32 pixels on <i>canvas</i>.</p>
+<h3 class="fn"><a name="QtCanvasRectangle-2"></a>QtCanvasRectangle::QtCanvasRectangle ( const <a href="http://doc.trolltech.com/4.1/qrect.html">QRect</a> &amp; <i>r</i>, <a href="qtcanvas.html">QtCanvas</a> * <i>canvas</i> )</h3>
+<p>Constructs a rectangle positioned and sized by <i>r</i> on <i>canvas</i>.</p>
+<h3 class="fn"><a name="QtCanvasRectangle-3"></a>QtCanvasRectangle::QtCanvasRectangle ( int <i>x</i>, int <i>y</i>, int <i>width</i>, int <i>height</i>, <a href="qtcanvas.html">QtCanvas</a> * <i>canvas</i> )</h3>
+<p>Constructs a rectangle at position (<i>x</i>, <i>y</i>) and size <i>width</i> by <i>height</i>, on <i>canvas</i>.</p>
+<h3 class="fn"><a name="dtor.QtCanvasRectangle"></a>QtCanvasRectangle::~QtCanvasRectangle ()</h3>
+<p>Destroys the rectangle.</p>
+<h3 class="fn"><a name="chunks"></a><a href="http://doc.trolltech.com/4.1/qpolygon.html">QPolygon</a> QtCanvasRectangle::chunks () const&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<p>Simply calls QtCanvasItem::chunks().</p>
+<h3 class="fn"><a name="drawShape"></a>void QtCanvasRectangle::drawShape ( <a href="http://doc.trolltech.com/4.1/qpainter.html">QPainter</a> &amp; <i>p</i> )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<p>Draws the rectangle on painter <i>p</i>.</p>
+<p>Reimplemented from <a href="qtcanvaspolygonalitem.html#drawShape">QtCanvasPolygonalItem</a>.</p>
+<h3 class="fn"><a name="height"></a>int QtCanvasRectangle::height () const</h3>
+<p>Returns the height of the rectangle.</p>
+<h3 class="fn"><a name="rect"></a><a href="http://doc.trolltech.com/4.1/qrect.html">QRect</a> QtCanvasRectangle::rect () const</h3>
+<p>Returns the integer-converted <a href="qtcanvasitem.html#x">x</a>(), <a href="qtcanvasitem.html#y">y</a>() position and <a href="qtcanvasrectangle.html#size">size</a>() of the rectangle as a <a href="http://doc.trolltech.com/4.1/qrect.html">QRect</a>.</p>
+<h3 class="fn"><a name="rtti"></a>int QtCanvasRectangle::rtti () const&nbsp;&nbsp;<tt> [virtual]</tt></h3>
+<p>Returns 5 (<a href="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Rectangle</a>).</p>
+<p>Reimplemented from <a href="qtcanvasitem.html#rtti">QtCanvasItem</a>.</p>
+<p>See also <a href="qtcanvasitem.html#rtti">QtCanvasItem::rtti</a>().</p>
+<h3 class="fn"><a name="setSize"></a>void QtCanvasRectangle::setSize ( int <i>width</i>, int <i>height</i> )</h3>
+<p>Sets the <i>width</i> and <i>height</i> of the rectangle.</p>
+<p>See also <a href="qtcanvasrectangle.html#size">size</a>().</p>
+<h3 class="fn"><a name="size"></a><a href="http://doc.trolltech.com/4.1/qsize.html">QSize</a> QtCanvasRectangle::size () const</h3>
+<p>Returns the <a href="qtcanvasrectangle.html#width">width</a>() and <a href="qtcanvasrectangle.html#height">height</a>() of the rectangle.</p>
+<p>See also <a href="qtcanvasrectangle.html#rect">rect</a>() and <a href="qtcanvasrectangle.html#setSize">setSize</a>().</p>
+<h3 class="fn"><a name="width"></a>int QtCanvasRectangle::width () const</h3>
+<p>Returns the width of the rectangle.</p>
+<p /><address><hr /><div align="center">
+<table width="100%" cellspacing="0" border="0"><tr class="address">
+<td width="30%">Copyright &copy; 2005 <a href="trolltech.html">Trolltech</a></td>
+<td width="40%" align="center"><a href="http://doc.trolltech.com/trademarks.html">Trademarks</a></td>
+
+</tr></table></div></address></body>
+</html>

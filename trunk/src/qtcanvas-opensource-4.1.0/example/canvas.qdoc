@@ -1,0 +1,34 @@
+/*!
+  \page canvas-example.html
+  \title Canvas Example
+
+  This example shows a QtCanvas and some \l{QtCanvasItem}s in action.
+  You can do a lot more with QtCanvas than we show here, but the
+  example provides a taste of what can be done.
+
+  \image canvas.png
+
+  \raw HTML
+  <hr> 
+  \endraw
+
+  Header file:
+
+  \include canvas.h
+
+  \raw HTML
+  <hr>
+  \endraw
+
+  Implementation:
+
+  \include canvas.cpp
+
+  \raw HTML
+  <hr>
+  \endraw
+
+  Main:
+
+  \include main.cpp
+*/

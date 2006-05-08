@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- qtcanvas-2.0-commercial/src/qtcanvas.cpp -->
+<head>
+    <title>QtCanvasView Class Reference</title>
+    <style>h3.fn,span.fn { margin-left: 1cm; text-indent: -1cm; }
+a:link { color: #004faf; text-decoration: none }
+a:visited { color: #672967; text-decoration: none }
+td.postheader { font-family: sans-serif }
+tr.address { font-family: sans-serif }
+body { background: #ffffff; color: black; }</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" valign="top" width="32"><img src="images/qt-logo.png" align="left" width="32" height="32" border="0" /></td>
+
+<td align="right" valign="top" width="230"><img src="images/trolltech-logo.png" align="right" width="203" height="32" border="0" /></td></tr></table><h1 align="center">QtCanvasView Class Reference</h1>
+<p>The QtCanvasView class provides an on-screen view of a <a href="qtcanvas.html">QtCanvas</a>. <a href="#details">More...</a></p>
+<pre>#include &lt;QtCanvasView&gt;</pre><p>Inherits <a href="http://doc.trolltech.com/4.1/qscrollarea.html">QScrollArea</a>.</p>
+<ul>
+<li><a href="qtcanvasview-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="properties"></a>
+<h3>Properties</h3>
+<ul>
+<li><div class="fn"/><b><a href="qtcanvasview.html#highQualityRendering-prop">highQualityRendering</a></b> : bool</li>
+</ul>
+<ul>
+<li><div class="fn"/>1 property inherited from <a href="http://doc.trolltech.com/4.1/qscrollarea.html#properties">QScrollArea</a></li>
+<li><div class="fn"/>2 properties inherited from <a href="http://doc.trolltech.com/4.1/qabstractscrollarea.html#properties">QAbstractScrollArea</a></li>
+<li><div class="fn"/>6 properties inherited from <a href="http://doc.trolltech.com/4.1/qframe.html#properties">QFrame</a></li>
+<li><div class="fn"/>54 properties inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#properties">QWidget</a></li>
+<li><div class="fn"/>1 property inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#properties">QObject</a></li>
+</ul>
+<a name="public-functions"></a>
+<h3>Public Functions</h3>
+<ul>
+<li><div class="fn"/><b><a href="qtcanvasview.html#QtCanvasView">QtCanvasView</a></b> ( QWidget * <i>parent</i> = 0 )</li>
+<li><div class="fn"/><b><a href="qtcanvasview.html#QtCanvasView-2">QtCanvasView</a></b> ( QtCanvas * <i>canvas</i>, QWidget * <i>parent</i> = 0 )</li>
+<li><div class="fn"/><b><a href="qtcanvasview.html#dtor.QtCanvasView">~QtCanvasView</a></b> ()</li>
+<li><div class="fn"/>QtCanvas * <b><a href="qtcanvasview.html#canvas">canvas</a></b> () const</li>
+<li><div class="fn"/>bool <b><a href="qtcanvasview.html#highQualityRendering-prop">highQualityRendering</a></b> () const</li>
+<li><div class="fn"/>const QMatrix &amp; <b><a href="qtcanvasview.html#inverseWorldMatrix">inverseWorldMatrix</a></b> () const</li>
+<li><div class="fn"/>void <b><a href="qtcanvasview.html#setCanvas">setCanvas</a></b> ( QtCanvas * <i>canvas</i> )</li>
+<li><div class="fn"/>bool <b><a href="qtcanvasview.html#setWorldMatrix">setWorldMatrix</a></b> ( const QMatrix &amp; <i>wm</i> )</li>
+<li><div class="fn"/>virtual QSize <b><a href="qtcanvasview.html#sizeHint">sizeHint</a></b> () const</li>
+<li><div class="fn"/>const QMatrix &amp; <b><a href="qtcanvasview.html#worldMatrix">worldMatrix</a></b> () const</li>
+</ul>
+<ul>
+<li><div class="fn"/>6 public functions inherited from <a href="http://doc.trolltech.com/4.1/qscrollarea.html#public-functions">QScrollArea</a></li>
+<li><div class="fn"/>8 public functions inherited from <a href="http://doc.trolltech.com/4.1/qabstractscrollarea.html#public-functions">QAbstractScrollArea</a></li>
+<li><div class="fn"/>13 public functions inherited from <a href="http://doc.trolltech.com/4.1/qframe.html#public-functions">QFrame</a></li>
+<li><div class="fn"/>251 public functions inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#public-functions">QWidget</a></li>
+<li><div class="fn"/>36 public functions inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#public-functions">QObject</a></li>
+<li><div class="fn"/>18 public functions inherited from <a href="http://doc.trolltech.com/4.1/qpaintdevice.html#public-functions">QPaintDevice</a></li>
+</ul>
+<a name="public-slots"></a>
+<h3>Public Slots</h3>
+<ul>
+<li><div class="fn"/>void <b><a href="qtcanvasview.html#highQualityRendering-prop">setHighQualityRendering</a></b> ( bool <i>enable</i> )</li>
+</ul>
+<ul>
+<li><div class="fn"/>18 public slots inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#public-slots">QWidget</a></li>
+<li><div class="fn"/>1 public slot inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#public-slots">QObject</a></li>
+</ul>
+<a name="protected-functions"></a>
+<h3>Protected Functions</h3>
+<ul>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsContextMenuEvent">contentsContextMenuEvent</a></b> ( QContextMenuEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsDragEnterEvent">contentsDragEnterEvent</a></b> ( QDragEnterEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsDragLeaveEvent">contentsDragLeaveEvent</a></b> ( QDragLeaveEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsDragMoveEvent">contentsDragMoveEvent</a></b> ( QDragMoveEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsDropEvent">contentsDropEvent</a></b> ( QDropEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsMouseDoubleClickEvent">contentsMouseDoubleClickEvent</a></b> ( QMouseEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsMouseMoveEvent">contentsMouseMoveEvent</a></b> ( QMouseEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsMousePressEvent">contentsMousePressEvent</a></b> ( QMouseEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsMouseReleaseEvent">contentsMouseReleaseEvent</a></b> ( QMouseEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#contentsWheelEvent">contentsWheelEvent</a></b> ( QWheelEvent * )</li>
+<li><div class="fn"/>virtual void <b><a href="qtcanvasview.html#drawContents">drawContents</a></b> ( QPainter * <i>p</i>, int <i>cx</i>, int <i>cy</i>, int <i>cw</i>, int <i>ch</i> )</li>
+</ul>
+<ul>
+<li><div class="fn"/>17 protected functions inherited from <a href="http://doc.trolltech.com/4.1/qabstractscrollarea.html#protected-functions">QAbstractScrollArea</a></li>
+<li><div class="fn"/>40 protected functions inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#protected-functions">QWidget</a></li>
+<li><div class="fn"/>8 protected functions inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#protected-functions">QObject</a></li>
+</ul>
+<h3>Additional Inherited Members</h3>
+<ul>
+<li><div class="fn"/>1 signal inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#signals">QWidget</a></li>
+<li><div class="fn"/>1 signal inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#signals">QObject</a></li>
+<li><div class="fn"/>4 public variables inherited from <a href="http://doc.trolltech.com/4.1/qframe.html#public-variables">QFrame</a></li>
+<li><div class="fn"/>5 static public members inherited from <a href="http://doc.trolltech.com/4.1/qwidget.html#static-public-members">QWidget</a></li>
+<li><div class="fn"/>4 static public members inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#static-public-members">QObject</a></li>
+<li><div class="fn"/>13 static public members inherited from <a href="http://doc.trolltech.com/4.1/qpaintdevice.html#static-public-members">QPaintDevice</a></li>
+<li><div class="fn"/>2 protected variables inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#protected-variables">QObject</a></li>
+<li><div class="fn"/>1 protected type inherited from <a href="http://doc.trolltech.com/4.1/qpaintdevice.html#protected-variables">QPaintDevice</a></li>
+<li><div class="fn"/>1 static protected member inherited from <a href="http://doc.trolltech.com/4.1/qobject.html#static-protected-members">QObject</a></li>
+</ul>
+<a name="details"></a>
+<hr />
+<h2>Detailed Description</h2>
+<p>The QtCanvasView class provides an on-screen view of a <a href="qtcanvas.html">QtCanvas</a>.</p>
+<p>A QtCanvasView is widget which provides a view of a <a href="qtcanvas.html">QtCanvas</a>.</p>
+<p>If you want users to be able to interact with a canvas view, subclass QtCanvasView. You might then reimplement QtScrollView::contentsMousePressEvent(). For example:</p>
+<pre>&nbsp;   void MyCanvasView::contentsMousePressEvent(QMouseEvent* e)
+    {
+        QtCanvasItemList l = canvas()-&gt;collisions(e-&gt;pos());
+        for (QtCanvasItemList::Iterator it = l.begin(); it!= l.end(); ++it) {
+            if ((*it)-&gt;rtti() == QtCanvasRectangle::RTTI)
+                qDebug(&quot;A QtCanvasRectangle lies somewhere at this point&quot;);
+        }
+    }</pre>
+<p>The canvas view shows canvas <a href="qtcanvasview.html#canvas">canvas</a>(); this can be changed using <a href="qtcanvasview.html#setCanvas">setCanvas</a>().</p>
+<p>A transformation matrix can be used to transform the view of the canvas in various ways, for example, zooming in or out or rotating. For example:</p>
+<pre>&nbsp;   QMatrix wm;
+    wm.scale(2, 2);   // Zooms in by 2 times
+    wm.rotate(90);    // Rotates 90 degrees counter clockwise
+                        // around the origin.
+    wm.translate(0, -canvas-&gt;height());
+                        // moves the canvas down so what was visible
+                        // before is still visible.
+    myCanvasView-&gt;setWorldMatrix(wm);</pre>
+<p>Use <a href="qtcanvasview.html#setWorldMatrix">setWorldMatrix</a>() to set the canvas view's world matrix: you must ensure that the world matrix is invertible. The current world matrix is retrievable with <a href="qtcanvasview.html#worldMatrix">worldMatrix</a>(), and its inversion is retrievable with <a href="qtcanvasview.html#inverseWorldMatrix">inverseWorldMatrix</a>().</p>
+<p>Example:</p>
+<p>The following code finds the part of the canvas that is visible in this view, i.e. the bounding rectangle of the view in canvas coordinates.</p>
+<pre>&nbsp;   QRect rc = QRect(myCanvasView-&gt;contentsX(), myCanvasView-&gt;contentsY(),
+                        myCanvasView-&gt;visibleWidth(), myCanvasView-&gt;visibleHeight());
+    QRect canvasRect = myCanvasView-&gt;inverseWorldMatrix().mapRect(rc);</pre>
+<p>See also <a href="http://doc.trolltech.com/4.1/qmatrix.html">QMatrix</a> and <a href="http://doc.trolltech.com/4.1/qpainter.html#setWorldMatrix">QPainter::setWorldMatrix</a>().</p>
+<hr />
+<h2>Property Documentation</h2>
+<h3 class="fn"><a name="highQualityRendering-prop"></a>highQualityRendering : bool</h3>
+<p>This property holds whether high quality rendering is turned on.</p>
+<p>If high quality rendering is turned on, the canvas view will paint itself using the QPainter::Antialiasing and QPainter::SmoothPixmapTransform rendering flags.</p>
+<p>Enabling these flag will usually improve the visual appearance on the screen at the cost of rendering speed.</p>
+<p>Access functions:</p>
+<ul>
+<li><div class="fn"/><b>bool highQualityRendering () const</b></li>
+<li><div class="fn"/><b>void setHighQualityRendering ( bool <i>enable</i> )</b></li>
+</ul>
+<hr />
+<h2>Member Function Documentation</h2>
+<h3 class="fn"><a name="QtCanvasView"></a>QtCanvasView::QtCanvasView ( <a href="http://doc.trolltech.com/4.1/qwidget.html">QWidget</a> * <i>parent</i> = 0 )</h3>
+<p>Constructs a <a href="qtcanvasview.html">QtCanvasView</a> with parent <i>parent</i>. The canvas view is not associated with a canvas, so you must to call <a href="qtcanvasview.html#setCanvas">setCanvas</a>() to view a canvas.</p>
+<h3 class="fn"><a name="QtCanvasView-2"></a>QtCanvasView::QtCanvasView ( <a href="qtcanvas.html">QtCanvas</a> * <i>canvas</i>, <a href="http://doc.trolltech.com/4.1/qwidget.html">QWidget</a> * <i>parent</i> = 0 )</h3>
+<p>Constructs a <a href="qtcanvasview.html">QtCanvasView</a> which views canvas <i>canvas</i>, with parent <i>parent</i>.</p>
+<h3 class="fn"><a name="dtor.QtCanvasView"></a>QtCanvasView::~QtCanvasView ()</h3>
+<p>Destroys the canvas view. The associated canvas is <i>not</i> deleted.</p>
+<h3 class="fn"><a name="canvas"></a><a href="qtcanvas.html">QtCanvas</a> * QtCanvasView::canvas () const</h3>
+<p>Returns a pointer to the canvas which the <a href="qtcanvasview.html">QtCanvasView</a> is currently showing.</p>
+<p>See also <a href="qtcanvasview.html#setCanvas">setCanvas</a>().</p>
+<h3 class="fn"><a name="contentsContextMenuEvent"></a>void QtCanvasView::contentsContextMenuEvent ( <a href="http://doc.trolltech.com/4.1/qcontextmenuevent.html">QContextMenuEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsDragEnterEvent"></a>void QtCanvasView::contentsDragEnterEvent ( <a href="http://doc.trolltech.com/4.1/qdragenterevent.html">QDragEnterEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsDragLeaveEvent"></a>void QtCanvasView::contentsDragLeaveEvent ( <a href="http://doc.trolltech.com/4.1/qdragleaveevent.html">QDragLeaveEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsDragMoveEvent"></a>void QtCanvasView::contentsDragMoveEvent ( <a href="http://doc.trolltech.com/4.1/qdragmoveevent.html">QDragMoveEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsDropEvent"></a>void QtCanvasView::contentsDropEvent ( <a href="http://doc.trolltech.com/4.1/qdropevent.html">QDropEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsMouseDoubleClickEvent"></a>void QtCanvasView::contentsMouseDoubleClickEvent ( <a href="http://doc.trolltech.com/4.1/qmouseevent.html">QMouseEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsMouseMoveEvent"></a>void QtCanvasView::contentsMouseMoveEvent ( <a href="http://doc.trolltech.com/4.1/qmouseevent.html">QMouseEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsMousePressEvent"></a>void QtCanvasView::contentsMousePressEvent ( <a href="http://doc.trolltech.com/4.1/qmouseevent.html">QMouseEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsMouseReleaseEvent"></a>void QtCanvasView::contentsMouseReleaseEvent ( <a href="http://doc.trolltech.com/4.1/qmouseevent.html">QMouseEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="contentsWheelEvent"></a>void QtCanvasView::contentsWheelEvent ( <a href="http://doc.trolltech.com/4.1/qwheelevent.html">QWheelEvent</a> * )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<h3 class="fn"><a name="drawContents"></a>void QtCanvasView::drawContents ( <a href="http://doc.trolltech.com/4.1/qpainter.html">QPainter</a> * <i>p</i>, int <i>cx</i>, int <i>cy</i>, int <i>cw</i>, int <i>ch</i> )&nbsp;&nbsp;<tt> [virtual protected]</tt></h3>
+<p>Repaints part of the <a href="qtcanvas.html">QtCanvas</a> that the canvas view is showing starting at <i>cx</i> by <i>cy</i>, with a width of <i>cw</i> and a height of <i>ch</i> using the painter <i>p</i>.</p>
+<h3 class="fn"><a name="inverseWorldMatrix"></a>const <a href="http://doc.trolltech.com/4.1/qmatrix.html">QMatrix</a> &amp; QtCanvasView::inverseWorldMatrix () const</h3>
+<p>Returns a reference to the inverse of the canvas view's current transformation matrix.</p>
+<p>See also <a href="qtcanvasview.html#setWorldMatrix">setWorldMatrix</a>() and <a href="qtcanvasview.html#worldMatrix">worldMatrix</a>().</p>
+<h3 class="fn"><a name="setCanvas"></a>void QtCanvasView::setCanvas ( <a href="qtcanvas.html">QtCanvas</a> * <i>canvas</i> )</h3>
+<p>Sets the canvas that the <a href="qtcanvasview.html">QtCanvasView</a> is showing to the canvas <i>canvas</i>.</p>
+<p>See also <a href="qtcanvasview.html#canvas">canvas</a>().</p>
+<h3 class="fn"><a name="setWorldMatrix"></a>bool QtCanvasView::setWorldMatrix ( const <a href="http://doc.trolltech.com/4.1/qmatrix.html">QMatrix</a> &amp; <i>wm</i> )</h3>
+<p>Sets the transformation matrix of the <a href="qtcanvasview.html">QtCanvasView</a> to <i>wm</i>. The matrix must be invertible (i.e. if you create a world matrix that zooms out by 2 times, then the inverse of this matrix is one that will zoom in by 2 times).</p>
+<p>When you use this, you should note that the performance of the <a href="qtcanvasview.html">QtCanvasView</a> will decrease considerably.</p>
+<p>Returns false if <i>wm</i> is not invertable; otherwise returns true.</p>
+<p>See also <a href="qtcanvasview.html#worldMatrix">worldMatrix</a>(), <a href="qtcanvasview.html#inverseWorldMatrix">inverseWorldMatrix</a>(), and <a href="http://doc.trolltech.com/4.1/qmatrix.html#isInvertible">QMatrix::isInvertible</a>().</p>
+<h3 class="fn"><a name="sizeHint"></a><a href="http://doc.trolltech.com/4.1/qsize.html">QSize</a> QtCanvasView::sizeHint () const&nbsp;&nbsp;<tt> [virtual]</tt></h3>
+<p>Suggests a size sufficient to view the entire canvas.</p>
+<p>Reimplemented from <a href="http://doc.trolltech.com/4.1/qwidget.html#sizeHint">QWidget</a>.</p>
+<h3 class="fn"><a name="worldMatrix"></a>const <a href="http://doc.trolltech.com/4.1/qmatrix.html">QMatrix</a> &amp; QtCanvasView::worldMatrix () const</h3>
+<p>Returns a reference to the canvas view's current transformation matrix.</p>
+<p>See also <a href="qtcanvasview.html#setWorldMatrix">setWorldMatrix</a>() and <a href="qtcanvasview.html#inverseWorldMatrix">inverseWorldMatrix</a>().</p>
+<p /><address><hr /><div align="center">
+<table width="100%" cellspacing="0" border="0"><tr class="address">
+<td width="30%">Copyright &copy; 2005 <a href="trolltech.html">Trolltech</a></td>
+<td width="40%" align="center"><a href="http://doc.trolltech.com/trademarks.html">Trademarks</a></td>
+
+</tr></table></div></address></body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>images/editcopy.png</file>
+        <file>images/editcut.png</file>
+        <file>images/editpaste.png</file>
+        <file>images/undo.png</file>
+        <file>images/redo.png</file>
+        <file>images/filenew.png</file>
+        <file>images/fileopen.png</file>
+        <file>images/filesave.png</file>
+        <file>images/filesaveas.png</file>
+        <file>images/fileprint.png</file>
+        <file>images/draw_system.xpm</file>
+        <file>images/draw_connector.png</file>
+        <file>images/draw_productbox.xpm</file>
+        <file>images/draw_supersystem.xpm</file>
+        <file>images/zoom.png</file>
+        <file>images/zoom+.png</file>
+        <file>images/zoom-.png</file>
+        <file>images/browse_cursor.xpm</file>
+        <file>images/browse_pan.xpm</file>
+        <file>images/bringtofront.png</file>
+        <file>images/sendtoback.png</file>
+        <file>images/qshapes.png</file>
+    </qresource>
+</RCC> 

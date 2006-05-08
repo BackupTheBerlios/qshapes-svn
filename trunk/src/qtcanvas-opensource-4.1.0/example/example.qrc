@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>butterfly.png</file>
+        <file>qt-trans.xpm</file>
+        <file>qtlogo.png</file>
+    </qresource>
+</RCC>

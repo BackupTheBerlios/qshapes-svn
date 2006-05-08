@@ -1,0 +1,249 @@
+<!DOCTYPE DCF>
+<DCF ref="index.html" icon="canvas.png" imagedir="../../gif" title="Canvas Documentation">
+<section ref="classes.html" title="Classes">
+    <section ref="qtcanvas.html" title="QtCanvas Class Reference">
+        <keyword ref="qtcanvas.html">QtCanvas</keyword>
+        <keyword ref="qtcanvas.html#advance">advance</keyword>
+        <keyword ref="qtcanvas.html#allItems">allItems</keyword>
+        <keyword ref="qtcanvas.html#backgroundColor">backgroundColor</keyword>
+        <keyword ref="qtcanvas.html#backgroundPixmap">backgroundPixmap</keyword>
+        <keyword ref="qtcanvas.html#chunkSize">chunkSize</keyword>
+        <keyword ref="qtcanvas.html#collisions">collisions</keyword>
+        <keyword ref="qtcanvas.html#drawArea">drawArea</keyword>
+        <keyword ref="qtcanvas.html#drawBackground">drawBackground</keyword>
+        <keyword ref="qtcanvas.html#drawForeground">drawForeground</keyword>
+        <keyword ref="qtcanvas.html#height">height</keyword>
+        <keyword ref="qtcanvas.html#onCanvas">onCanvas</keyword>
+        <keyword ref="qtcanvas.html#rect">rect</keyword>
+        <keyword ref="qtcanvas.html#resize">resize</keyword>
+        <keyword ref="qtcanvas.html#resized">resized</keyword>
+        <keyword ref="qtcanvas.html#retune">retune</keyword>
+        <keyword ref="qtcanvas.html#setAdvancePeriod">setAdvancePeriod</keyword>
+        <keyword ref="qtcanvas.html#setAllChanged">setAllChanged</keyword>
+        <keyword ref="qtcanvas.html#setBackgroundColor">setBackgroundColor</keyword>
+        <keyword ref="qtcanvas.html#setBackgroundPixmap">setBackgroundPixmap</keyword>
+        <keyword ref="qtcanvas.html#setChanged">setChanged</keyword>
+        <keyword ref="qtcanvas.html#setTile">setTile</keyword>
+        <keyword ref="qtcanvas.html#setTiles">setTiles</keyword>
+        <keyword ref="qtcanvas.html#setUnchanged">setUnchanged</keyword>
+        <keyword ref="qtcanvas.html#setUpdatePeriod">setUpdatePeriod</keyword>
+        <keyword ref="qtcanvas.html#size">size</keyword>
+        <keyword ref="qtcanvas.html#tile">tile</keyword>
+        <keyword ref="qtcanvas.html#tileHeight">tileHeight</keyword>
+        <keyword ref="qtcanvas.html#tileWidth">tileWidth</keyword>
+        <keyword ref="qtcanvas.html#tilesHorizontally">tilesHorizontally</keyword>
+        <keyword ref="qtcanvas.html#tilesVertically">tilesVertically</keyword>
+        <keyword ref="qtcanvas.html#update">update</keyword>
+        <keyword ref="qtcanvas.html#validChunk">validChunk</keyword>
+        <keyword ref="qtcanvas.html#width">width</keyword>
+        <section ref="qtcanvas-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvasellipse.html" title="QtCanvasEllipse Class Reference">
+        <keyword ref="qtcanvasellipse.html">QtCanvasEllipse</keyword>
+        <keyword ref="qtcanvasellipse.html#angleLength">angleLength</keyword>
+        <keyword ref="qtcanvasellipse.html#angleStart">angleStart</keyword>
+        <keyword ref="qtcanvasellipse.html#drawShape">drawShape</keyword>
+        <keyword ref="qtcanvasellipse.html#height">height</keyword>
+        <keyword ref="qtcanvasellipse.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvasellipse.html#setAngles">setAngles</keyword>
+        <keyword ref="qtcanvasellipse.html#setSize">setSize</keyword>
+        <keyword ref="qtcanvasellipse.html#width">width</keyword>
+        <section ref="qtcanvasellipse-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvasitem.html" title="QtCanvasItem Class Reference">
+        <keyword ref="qtcanvasitem.html">QtCanvasItem</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">RttiValues</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Item</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Ellipse</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Line</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Polygon</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_PolygonalItem</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Rectangle</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Spline</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Sprite</keyword>
+        <keyword ref="qtcanvasitem.html#RttiValues-enum">QtCanvasItem::Rtti_Text</keyword>
+        <keyword ref="qtcanvasitem.html#advance">advance</keyword>
+        <keyword ref="qtcanvasitem.html#animated">animated</keyword>
+        <keyword ref="qtcanvasitem.html#boundingRect">boundingRect</keyword>
+        <keyword ref="qtcanvasitem.html#boundingRectAdvanced">boundingRectAdvanced</keyword>
+        <keyword ref="qtcanvasitem.html#canvas">canvas</keyword>
+        <keyword ref="qtcanvasitem.html#collidesWith">collidesWith</keyword>
+        <keyword ref="qtcanvasitem.html#collisions">collisions</keyword>
+        <keyword ref="qtcanvasitem.html#draw">draw</keyword>
+        <keyword ref="qtcanvasitem.html#hide">hide</keyword>
+        <keyword ref="qtcanvasitem.html#isActive">isActive</keyword>
+        <keyword ref="qtcanvasitem.html#isEnabled">isEnabled</keyword>
+        <keyword ref="qtcanvasitem.html#isSelected">isSelected</keyword>
+        <keyword ref="qtcanvasitem.html#isVisible">isVisible</keyword>
+        <keyword ref="qtcanvasitem.html#move">move</keyword>
+        <keyword ref="qtcanvasitem.html#moveBy">moveBy</keyword>
+        <keyword ref="qtcanvasitem.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvasitem.html#setActive">setActive</keyword>
+        <keyword ref="qtcanvasitem.html#setAnimated">setAnimated</keyword>
+        <keyword ref="qtcanvasitem.html#setCanvas">setCanvas</keyword>
+        <keyword ref="qtcanvasitem.html#setEnabled">setEnabled</keyword>
+        <keyword ref="qtcanvasitem.html#setSelected">setSelected</keyword>
+        <keyword ref="qtcanvasitem.html#setVelocity">setVelocity</keyword>
+        <keyword ref="qtcanvasitem.html#setVisible">setVisible</keyword>
+        <keyword ref="qtcanvasitem.html#setX">setX</keyword>
+        <keyword ref="qtcanvasitem.html#setXVelocity">setXVelocity</keyword>
+        <keyword ref="qtcanvasitem.html#setY">setY</keyword>
+        <keyword ref="qtcanvasitem.html#setYVelocity">setYVelocity</keyword>
+        <keyword ref="qtcanvasitem.html#setZ">setZ</keyword>
+        <keyword ref="qtcanvasitem.html#show">show</keyword>
+        <keyword ref="qtcanvasitem.html#update">update</keyword>
+        <keyword ref="qtcanvasitem.html#x">x</keyword>
+        <keyword ref="qtcanvasitem.html#xVelocity">xVelocity</keyword>
+        <keyword ref="qtcanvasitem.html#y">y</keyword>
+        <keyword ref="qtcanvasitem.html#yVelocity">yVelocity</keyword>
+        <keyword ref="qtcanvasitem.html#z">z</keyword>
+        <section ref="qtcanvasitem-members.html" title="List of all members"/>
+        <section ref="qtcanvasitem-obsolete.html" title="Obsolete members"/>
+    </section>
+    <section ref="qtcanvasline.html" title="QtCanvasLine Class Reference">
+        <keyword ref="qtcanvasline.html">QtCanvasLine</keyword>
+        <keyword ref="qtcanvasline.html#endPoint">endPoint</keyword>
+        <keyword ref="qtcanvasline.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvasline.html#setPoints">setPoints</keyword>
+        <keyword ref="qtcanvasline.html#startPoint">startPoint</keyword>
+        <section ref="qtcanvasline-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvaspixmap.html" title="QtCanvasPixmap Class Reference">
+        <keyword ref="qtcanvaspixmap.html">QtCanvasPixmap</keyword>
+        <keyword ref="qtcanvaspixmap.html#offsetX">offsetX</keyword>
+        <keyword ref="qtcanvaspixmap.html#offsetY">offsetY</keyword>
+        <keyword ref="qtcanvaspixmap.html#setOffset">setOffset</keyword>
+        <section ref="qtcanvaspixmap-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvaspixmaparray.html" title="QtCanvasPixmapArray Class Reference">
+        <keyword ref="qtcanvaspixmaparray.html">QtCanvasPixmapArray</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#count">count</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#image">image</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#isValid">isValid</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#readCollisionMasks">readCollisionMasks</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#readPixmaps">readPixmaps</keyword>
+        <keyword ref="qtcanvaspixmaparray.html#setImage">setImage</keyword>
+        <section ref="qtcanvaspixmaparray-members.html" title="List of all members"/>
+        <section ref="qtcanvaspixmaparray-obsolete.html" title="Obsolete members"/>
+    </section>
+    <section ref="qtcanvaspolygon.html" title="QtCanvasPolygon Class Reference">
+        <keyword ref="qtcanvaspolygon.html">QtCanvasPolygon</keyword>
+        <keyword ref="qtcanvaspolygon.html#areaPoints">areaPoints</keyword>
+        <keyword ref="qtcanvaspolygon.html#drawShape">drawShape</keyword>
+        <keyword ref="qtcanvaspolygon.html#points">points</keyword>
+        <keyword ref="qtcanvaspolygon.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvaspolygon.html#setPoints">setPoints</keyword>
+        <section ref="qtcanvaspolygon-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvaspolygonalitem.html" title="QtCanvasPolygonalItem Class Reference">
+        <keyword ref="qtcanvaspolygonalitem.html">QtCanvasPolygonalItem</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#areaPoints">areaPoints</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#areaPointsAdvanced">areaPointsAdvanced</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#boundingRect">boundingRect</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#brush">brush</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#draw">draw</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#drawShape">drawShape</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#invalidate">invalidate</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#isValid">isValid</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#pen">pen</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#setBrush">setBrush</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#setPen">setPen</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#setWinding">setWinding</keyword>
+        <keyword ref="qtcanvaspolygonalitem.html#winding">winding</keyword>
+        <section ref="qtcanvaspolygonalitem-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvasrectangle.html" title="QtCanvasRectangle Class Reference">
+        <keyword ref="qtcanvasrectangle.html">QtCanvasRectangle</keyword>
+        <keyword ref="qtcanvasrectangle.html#chunks">chunks</keyword>
+        <keyword ref="qtcanvasrectangle.html#drawShape">drawShape</keyword>
+        <keyword ref="qtcanvasrectangle.html#height">height</keyword>
+        <keyword ref="qtcanvasrectangle.html#rect">rect</keyword>
+        <keyword ref="qtcanvasrectangle.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvasrectangle.html#setSize">setSize</keyword>
+        <keyword ref="qtcanvasrectangle.html#size">size</keyword>
+        <keyword ref="qtcanvasrectangle.html#width">width</keyword>
+        <section ref="qtcanvasrectangle-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvasspline.html" title="QtCanvasSpline Class Reference">
+        <keyword ref="qtcanvasspline.html">QtCanvasSpline</keyword>
+        <keyword ref="qtcanvasspline.html#closed">closed</keyword>
+        <keyword ref="qtcanvasspline.html#controlPoints">controlPoints</keyword>
+        <keyword ref="qtcanvasspline.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvasspline.html#setControlPoints">setControlPoints</keyword>
+        <section ref="qtcanvasspline-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvassprite.html" title="QtCanvasSprite Class Reference">
+        <keyword ref="qtcanvassprite.html">QtCanvasSprite</keyword>
+        <keyword ref="qtcanvassprite.html#FrameAnimationType-enum">FrameAnimationType</keyword>
+        <keyword ref="qtcanvassprite.html#FrameAnimationType-enum">QtCanvasSprite::Cycle</keyword>
+        <keyword ref="qtcanvassprite.html#FrameAnimationType-enum">QtCanvasSprite::Oscillate</keyword>
+        <keyword ref="qtcanvassprite.html#advance">advance</keyword>
+        <keyword ref="qtcanvassprite.html#bottomEdge">bottomEdge</keyword>
+        <keyword ref="qtcanvassprite.html#boundingRect">boundingRect</keyword>
+        <keyword ref="qtcanvassprite.html#draw">draw</keyword>
+        <keyword ref="qtcanvassprite.html#frame">frame</keyword>
+        <keyword ref="qtcanvassprite.html#frameCount">frameCount</keyword>
+        <keyword ref="qtcanvassprite.html#height">height</keyword>
+        <keyword ref="qtcanvassprite.html#image">image</keyword>
+        <keyword ref="qtcanvassprite.html#imageAdvanced">imageAdvanced</keyword>
+        <keyword ref="qtcanvassprite.html#leftEdge">leftEdge</keyword>
+        <keyword ref="qtcanvassprite.html#move">move</keyword>
+        <keyword ref="qtcanvassprite.html#rightEdge">rightEdge</keyword>
+        <keyword ref="qtcanvassprite.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvassprite.html#setFrame">setFrame</keyword>
+        <keyword ref="qtcanvassprite.html#setFrameAnimation">setFrameAnimation</keyword>
+        <keyword ref="qtcanvassprite.html#setSequence">setSequence</keyword>
+        <keyword ref="qtcanvassprite.html#topEdge">topEdge</keyword>
+        <keyword ref="qtcanvassprite.html#width">width</keyword>
+        <section ref="qtcanvassprite-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvastext.html" title="QtCanvasText Class Reference">
+        <keyword ref="qtcanvastext.html">QtCanvasText</keyword>
+        <keyword ref="qtcanvastext.html#boundingRect">boundingRect</keyword>
+        <keyword ref="qtcanvastext.html#color">color</keyword>
+        <keyword ref="qtcanvastext.html#draw">draw</keyword>
+        <keyword ref="qtcanvastext.html#font">font</keyword>
+        <keyword ref="qtcanvastext.html#rtti">rtti</keyword>
+        <keyword ref="qtcanvastext.html#setColor">setColor</keyword>
+        <keyword ref="qtcanvastext.html#setFont">setFont</keyword>
+        <keyword ref="qtcanvastext.html#setText">setText</keyword>
+        <keyword ref="qtcanvastext.html#setTextFlags">setTextFlags</keyword>
+        <keyword ref="qtcanvastext.html#text">text</keyword>
+        <keyword ref="qtcanvastext.html#textFlags">textFlags</keyword>
+        <section ref="qtcanvastext-members.html" title="List of all members"/>
+    </section>
+    <section ref="qtcanvasview.html" title="QtCanvasView Class Reference">
+        <keyword ref="qtcanvasview.html">QtCanvasView</keyword>
+        <keyword ref="qtcanvasview.html#highQualityRendering-prop">highQualityRendering</keyword>
+        <keyword ref="qtcanvasview.html#highQualityRendering-prop">setHighQualityRendering</keyword>
+        <keyword ref="qtcanvasview.html#canvas">canvas</keyword>
+        <keyword ref="qtcanvasview.html#contentsContextMenuEvent">contentsContextMenuEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsDragEnterEvent">contentsDragEnterEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsDragLeaveEvent">contentsDragLeaveEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsDragMoveEvent">contentsDragMoveEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsDropEvent">contentsDropEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsMouseDoubleClickEvent">contentsMouseDoubleClickEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsMouseMoveEvent">contentsMouseMoveEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsMousePressEvent">contentsMousePressEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsMouseReleaseEvent">contentsMouseReleaseEvent</keyword>
+        <keyword ref="qtcanvasview.html#contentsWheelEvent">contentsWheelEvent</keyword>
+        <keyword ref="qtcanvasview.html#drawContents">drawContents</keyword>
+        <keyword ref="qtcanvasview.html#inverseWorldMatrix">inverseWorldMatrix</keyword>
+        <keyword ref="qtcanvasview.html#setCanvas">setCanvas</keyword>
+        <keyword ref="qtcanvasview.html#setWorldMatrix">setWorldMatrix</keyword>
+        <keyword ref="qtcanvasview.html#sizeHint">sizeHint</keyword>
+        <keyword ref="qtcanvasview.html#worldMatrix">worldMatrix</keyword>
+        <section ref="qtcanvasview-members.html" title="List of all members"/>
+    </section>
+</section>
+<section ref="overviews.html" title="Overviews">
+    <section ref="index.html" title="Canvas">
+        <keyword ref="index.html">Canvas</keyword>
+    </section>
+    <section ref="canvas-example.html" title="Canvas Example">
+        <keyword ref="canvas-example.html">Canvas Example</keyword>
+    </section>
+</section>
+<section ref="examples.html" title="Tutorial &amp; Examples"/>
+</DCF>

@@ -1,0 +1,16 @@
+--- qtcanvas.cpp	2006-02-06 21:31:31.000000000 +0100
++++ qtcanvas.cpp	2006-02-06 21:32:54.000000000 +0100
+@@ -4119,7 +4119,12 @@
+ 
+ void QtCanvasLine::moveBy(double dx, double dy)
+ {
+-    QtCanvasPolygonalItem::moveBy(dx, dy);
++    removeFromChunks();
++    x1 += dx;
++    y1 += dy;
++    x2 += dx;
++    y2+= dy;
++    addToChunks();
+ }
+ 
+ /*!
